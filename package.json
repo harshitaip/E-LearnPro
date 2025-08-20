@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "echo 'Linting skipped - no linter configured'",
+    "type-check": "tsc --noEmit",
+    "test": "echo 'Tests skipped - no test framework configured' && exit 0"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
