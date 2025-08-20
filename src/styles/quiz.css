@@ -1,0 +1,17 @@
+/* Quiz-specific styles */
+
+.progress-bar {
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.progress-bar[data-progress="0"] { width: 0%; }
+.progress-bar[data-progress="11"] { width: 11%; }
+.progress-bar[data-progress="22"] { width: 22%; }
+.progress-bar[data-progress="33"] { width: 33%; }
+.progress-bar[data-progress="44"] { width: 44%; }
+.progress-bar[data-progress="56"] { width: 56%; }
+.progress-bar[data-progress="67"] { width: 67%; }
+.progress-bar[data-progress="78"] { width: 78%; }
+.progress-bar[data-progress="89"] { width: 89%; }
+.progress-bar[data-progress="100"] { width: 100%; }

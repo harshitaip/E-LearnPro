@@ -1,0 +1,5 @@
+# Fallback for all routes to index.html (SPA)
+/*    /index.html   200
+
+# Specific redirects for legacy URLs (if any)
+/analytics  /admin/analytics  301
